@@ -44,7 +44,7 @@ if [[ ! $type =~ image/ ]]; then
     exit
   fi
 
-  ${batname} --style="${BAT_STYLE:-numbers}" --color=always --pager=never --highlight-line="${center:-0}" -- "$file"
+  ${batname} --style="${BAT_STYLE:-numbers}" --color=always --paging=never --highlight-line="${center:-0}" -- "$file"
   exit
 fi
 
